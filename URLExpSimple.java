@@ -1,4 +1,5 @@
 import java.io.InputStreamReader;
+import java.net.URL;
 import java.net.URLConnection;
 import java.util.Scanner;
 
@@ -13,7 +14,7 @@ public class URLExpSimple {
             int count = 0;
             while (in.hasNext()) {
                 System.out.println(in.next());
-                //count++;
+                count++;
             }
             System.out.println("Number of tokens: " + count);
             in.close();
