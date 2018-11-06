@@ -11,4 +11,8 @@ How can you do this with a linux command?
 
 Modify the server.java to read in foo.txt and respond with it appended to the existing response.
 
+How many times is "Amendment" in constitution.txt?
+How many times is "Amendment" in constitution.txt case insensitively?
+
+Replace all upper case occurences of Amendment with Appointment
 
