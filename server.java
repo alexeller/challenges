@@ -15,7 +15,7 @@ public class server {
         server.start();
     }
 
-    static class MyHandler implements HttpHandler {
+    public static class MyHandler implements HttpHandler {
         @Override
         public void handle(HttpExchange t) throws IOException {
             String response = "This is the response";
